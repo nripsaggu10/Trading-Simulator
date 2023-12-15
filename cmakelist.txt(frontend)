@@ -1,0 +1,9 @@
+project(FrontendLib)
+
+find_package(Qt5 COMPONENTS Widgets REQUIRED)
+
+add_library(FrontendLib STATIC)
+target_include_directories(FrontendLib PUBLIC include)
+target_link_libraries(FrontendLib PRIVATE Qt5::Widgets)
+
+add_subdirectory(src)
