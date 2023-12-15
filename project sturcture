@@ -1,0 +1,26 @@
+TradingSimulator
+│
+├── backend
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── Stock.h
+│   └── src
+│       └── Stock.cpp
+│
+├── frontend
+│   ├── CMakeLists.txt
+│   ├── MainWindow.ui
+│   └── include
+│       └── MainWindow.h
+│   └── src
+│       └── MainWindow.cpp
+│
+├── simulator
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── TradingSimulator.h
+│   └── src
+│       └── TradingSimulator.cpp
+│
+├── main.cpp
+└── CMakeLists.txt
