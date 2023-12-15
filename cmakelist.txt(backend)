@@ -1,0 +1,6 @@
+project(BackendLib)
+
+add_library(BackendLib STATIC)
+target_include_directories(BackendLib PUBLIC include)
+
+add_subdirectory(src)
