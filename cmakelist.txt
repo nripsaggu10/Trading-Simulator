@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.10)
+project(TradingSimulator)
+
+add_subdirectory(backend)
+add_subdirectory(frontend)
+add_subdirectory(simulator)
+
+add_executable(TradingSimulator main.cpp)
+target_link_libraries(TradingSimulator BackendLib FrontendLib SimulatorLib)
